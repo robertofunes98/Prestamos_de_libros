@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/opc_menu_prestamistas" android:title="Prestamistas">
+        <menu>
+            <item
+                android:id="@+id/opc_registrar_libros"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Registrar libros" />
+            <item
+                android:id="@+id/opc_mis_libros"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mis libros" />
+
+            <item
+                android:id="@+id/opc_libros_prestamos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Libros en prestamo y ganancias" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/opc_menu_prestatarios" android:title="Prestatarios">
+        <menu>
+            <item
+                android:id="@+id/opc_busqueda_libros"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Buscar libros" />
+            <item
+                android:id="@+id/opc_mis_prestamos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mis libros" />
+
+        </menu>
+    </item>
+
+</menu>
